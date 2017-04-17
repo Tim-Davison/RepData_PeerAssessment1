@@ -83,4 +83,5 @@ with(subset(stepsIntervalMean, Day_Type2=="weekday"), plot(interval, IntervalMea
 with(subset(stepsIntervalMean, Day_Type2=="weekend"), plot(interval, IntervalMean, type="l", main="Weekend", xlab= "Interval", ylab="Steps"))
 ```
 
-The End.
+The End.  
+
