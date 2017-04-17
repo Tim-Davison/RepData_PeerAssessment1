@@ -25,7 +25,7 @@ Make a histogram of the total number of steps taken each day.
 plot(stepsDate, type="h", main="Total Steps per Day", xlab= "Date", ylab="Steps")
 ```
 
-![plot of chunk unnamed-chunk-4](figure/unnamed-chunk-4-1.png)
+![plot of chunk unnamed-chunk-4](unnamed-chunk-4-1.png)
 
 Question #3  
 What are the mean and median number of total steps taken each day?  
