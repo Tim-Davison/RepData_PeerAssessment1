@@ -54,7 +54,7 @@ stepsIntervalMean <- summarize(intervalGroup, IntervalMean=mean(steps, na.rm = T
 plot(stepsIntervalMean, type="l", main="Average Steps per Interval", xlab= "Interval", ylab="Steps")
 ```
 
-![plot of chunk unnamed-chunk-6](figure/unnamed-chunk-6-1.png)
+![plot of chunk unnamed-chunk-6](unnamed-chunk-6-1.png)
 
 Question #5  
 Find the 5-minute interval that, on average, contains the maximum number of steps per day.  
@@ -103,7 +103,7 @@ And, here is the code for the histogram of Total Steps per Day, with imputed val
 plot(stepsDateMean, type="h", main="Total Steps per Day", xlab= "Date", ylab="Steps")
 ```
 
-![plot of chunk unnamed-chunk-9](figure/unnamed-chunk-9-1.png)
+![plot of chunk unnamed-chunk-9](unnamed-chunk-9-1.png)
 
 Question #8  
 Create a new weekday / weekend factor variable.  
@@ -133,6 +133,6 @@ with(subset(stepsIntervalMean, Day_Type2=="weekday"), plot(interval, IntervalMea
 with(subset(stepsIntervalMean, Day_Type2=="weekend"), plot(interval, IntervalMean, type="l", main="Weekend", xlab= "Interval", ylab="Steps"))
 ```
 
-![plot of chunk unnamed-chunk-12](figure/unnamed-chunk-12-1.png)
+![plot of chunk unnamed-chunk-12](unnamed-chunk-12-1.png)
 
 The End.
